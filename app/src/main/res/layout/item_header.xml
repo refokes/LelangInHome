@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/_10sdp"
+    android:background="#341F97">
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:text="LeHomeApp"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/_20ssp"
+        android:fontFamily="@font/nunito_extrabold" />
+
+    <TextView
+        android:id="@+id/tvKabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNama"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="Silahkan Pilih Menu"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_10ssp"
+        android:fontFamily="@font/nunito"/>
+
+
+</RelativeLayout>
+
+
+
+

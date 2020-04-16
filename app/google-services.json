@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "959974820886",
+    "firebase_url": "https://lelanginhome.firebaseio.com",
+    "project_id": "lelanginhome",
+    "storage_bucket": "lelanginhome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959974820886:android:6505b056f40e371a8cb937",
+        "android_client_info": {
+          "package_name": "com.example.lelanginhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959974820886-br3e1cjqv1pd998b9qaemq14m06ql0rm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lelanginhome",
+            "certificate_hash": "f624ac8de699d9ed6b7fa195645f819f985557a3"
+          }
+        },
+        {
+          "client_id": "959974820886-9vc4r18ovbf10ag7ft6kbnocl4j6t3m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL8vAkmGGqTJUAevJKva8vMWT_4UYolwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959974820886-9vc4r18ovbf10ag7ft6kbnocl4j6t3m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

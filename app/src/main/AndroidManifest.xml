@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lelanginhome">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".auth.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".auth.RegisterActivity" />
+        <activity android:name=".Barang.BarangActivity"/>
+        <activity android:name=".Barang.ManageBarangActivity"/>
+        <activity android:name=".Lelang.ManageLelangActivity"/>
+        <activity android:name=".Lelang.LelangActivitySpecial"/>
+        <activity android:name=".Lelang.DetailLelangActivitySpecial"/>
+        <activity android:name=".Lelang.LelangActivity"/>
+        <activity android:name=".Lelang.DetailLelangActivity"/>
+        <activity android:name=".Lelang.HasilLelangActivity"/>
+        <activity android:name=".Lelang.HasilLelangActivitySpecial"/>
+        <activity android:name=".Lelang.DetailHasilLelangActivity"/>
+    </application>
+
+
+</manifest>

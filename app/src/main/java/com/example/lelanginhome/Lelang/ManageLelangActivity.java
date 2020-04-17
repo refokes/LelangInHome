@@ -189,12 +189,11 @@ public class ManageLelangActivity extends AppCompatActivity implements  AdapterV
                 final List<Barang> titleList = new ArrayList<Barang>();
 
                 for(DataSnapshot dataSnapshot1: dataSnapshot.getChildren()){
-                    String id = dataSnapshot1.child("idBarang").getValue(String.class);
                     String nama = dataSnapshot1.child("namaBarang").getValue(String.class);
                     String desk = dataSnapshot1.child("content").getValue(String.class);
                     String picTips= dataSnapshot1.child("picTips").getValue(String.class);
 
-                    Barang barang = new Barang(id,picTips,nama,desk);
+                    Barang barang = new Barang(picTips,nama,desk);
                     titleList.add(barang);
                 }
                 ArrayAdapter<Barang> arrayAdapter = new ArrayAdapter<Barang>(ManageLelangActivity.this,

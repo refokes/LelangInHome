@@ -118,17 +118,13 @@ public class ManageBarangActivity extends AppCompatActivity {
         String desc = txtDesc.getText().toString();
 
         if(!TextUtils.isEmpty(title)){
-            // get key id
-            String id = ref.push().getKey();
-
-
-            Barang barangData = new Barang(id,url,title,desc);
-            barangData.setIdBarang(id);
+        
+            Barang barangData = new Barang(url,title,desc);
             barangData.setPicTips(url);
             barangData.setNamaBarang(title);
             barangData.setContent(desc);
             // Add data to firebase
-            ref.child(id).setValue(barangData);
+            ref.child(title).setValue(barangData);
 
             Toast.makeText(this,"Post berhasil di masukan",Toast.LENGTH_LONG).show();
         }else{

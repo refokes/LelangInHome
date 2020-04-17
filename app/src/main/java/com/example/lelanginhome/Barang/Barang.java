@@ -3,17 +3,12 @@ package com.example.lelanginhome.Barang;
 public class Barang {
     private String idBarang, picTips, namaBarang,content;
 
-    public Barang(String idBarang, String picTips,String namaBarang,String content) {
-        this.idBarang = idBarang;
+    public Barang( String picTips,String namaBarang,String content) {
         this.picTips = picTips;
         this.namaBarang = namaBarang;
         this.content = content;
     }
 
-//    public Barang(String idBarang,String namaBarang){
-//        this.idBarang = idBarang;
-//        this.namaBarang = namaBarang;
-//    }
     @Override
     public String toString(){
             return namaBarang;

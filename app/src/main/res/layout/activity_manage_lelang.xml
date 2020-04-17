@@ -9,6 +9,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#341F97">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/dark_50"/>
         <ImageView
             android:id="@+id/iv_change"
             android:layout_centerHorizontal="true"
@@ -16,11 +21,6 @@
             android:layout_height="@dimen/_200sdp"
             android:src="@drawable/food"
             android:scaleType="centerCrop"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_200sdp"
-            android:src="@drawable/dark_50"/>
-
         <RelativeLayout
             android:id="@+id/relative1"
             android:layout_width="match_parent"
@@ -39,19 +39,6 @@
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:background="@drawable/bg_shape_menu"/>
-
-            <TextView
-                android:id="@+id/tvTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ganti Foto"
-                android:fontFamily="@font/nunito_extrabold"
-                android:textSize="@dimen/_25ssp"
-                android:textColor="#fff"
-                android:layout_centerInParent="true"
-                android:layout_marginStart="@dimen/_25sdp"
-                android:layout_marginBottom="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_20sdp"/>
 
         </RelativeLayout>
 

@@ -124,8 +124,8 @@ public class BarangActivity extends AppCompatActivity implements  NavigationView
             @Override
             public void onItemClick(View view, int position) {
                 Barang barang = dataList.get(position);
-                String id= barang.getIdBarang();
-                showUpdateDialog(barang.getIdBarang());
+                String id= barang.getNamaBarang();
+                showUpdateDialog(id);
             }
         }));
         btnAdd.setOnClickListener(new View.OnClickListener() {

@@ -118,7 +118,7 @@ public class ManageBarangActivity extends AppCompatActivity {
         String desc = txtDesc.getText().toString();
 
         if(!TextUtils.isEmpty(title)){
-        
+
             Barang barangData = new Barang(url,title,desc);
             barangData.setPicTips(url);
             barangData.setNamaBarang(title);
